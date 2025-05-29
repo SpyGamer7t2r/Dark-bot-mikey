@@ -8,21 +8,21 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "22044396"))
-API_HASH = getenv("API_HASH", "19eb87dcdd297892f8586625156dbd6e")
+API_ID = int(getenv("API_ID", "21103099"))
+API_HASH = getenv("API_HASH", "2f08d417f1f8a0588854c4743ddd8298")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN","8138715048:AAH7ulkWvS8YJiu4V7p5rVXV7OUm6AtNCfs")
+BOT_TOKEN = getenv("BOT_TOKEN","7878626275:AAHMWoTzYE3mDNTl8Ayvjids5fMakONDrjU")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://mikey:mikey@cluster0.zv6knh9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Dark-bot-Mikey")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Dark-bot-Krito")
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 100000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002675610701))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002488381987))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", "7148922845"))
@@ -76,7 +76,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 # Get your pyrogram v2 session from @BRANDEDSTRINGSESSION_BOT on Telegram
 STRING1 = getenv("STRING_SESSION",  None)
-STRING2 = getenv("STRING_SESSION2", "BQFQXuwANE9IKf7rBmo85FWH6Z39W8jHjenYV4SDRteHmBtGL8mqocXrnvV3FlIHxcJR5OAjIilaODi_feN_9-Sc9kAOkNbJI2mOEetau2NsdTbvg8Vx2OJWDbmhotm1IMN6p20_zLv_1PxChZUC8CFPzspfMMqxt6Sj7rhRugsM3uTBr14TDo_sa4NLN3ikwTsy6keOZprjO41PjCeh4qGN9pcI952cEZSB2knnZ_oAbnTTs0pxMndoGsSaiCYnNS4gwJxO8sr8U9Uqd-W1h05cM5qRTYFPUJLOMzgmL5JRkRwoFPoN90hKf1WdMVCy-fScqb5YRWKOePX-KDT-p6U2lI2PkAAAAAHCuA2MAA")
+STRING2 = getenv("STRING_SESSION2", "1BVtsOLUBuxTsTP8SZh_hF8jVQ9PNb6HiSPOAfX9AFovsAEEi6ssAXWH8NgMOs4rX6SXJGi3ZVcdp_f0tApfsy2d3WPBxcI9hS-2ojA29vZ5XhJ0MaczxXpmpOkNErkhjAo5sobXDn-xL3TQKvxUnn8ac5oLUj_1JXTT7ljXD7wOuD8cmQwQYyk2x_vLpe506XA_v1UXHo3mP-78_XtXRruLL9NpJevkNEKyza30vfsO7HdbQ4OlYzDW4dSuwXZdQ4hZ4bbhsk2vVx7xesLpNnHqtrUMQQwmxm-pCr953-NKfd5S_MYSEfOOwXaIVm-xU76SQ3SmoqLO3uHL0mRwWM-N7o-dkzFs=")
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
@@ -91,7 +91,7 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/9d626bca4cdba4b12948b-c45a3054fc1c3e7884.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/d8ac350e5c44928b20989-d3f609ba8c017e39d3.jpg")
 PING_IMG_URL = getenv("PING_IMG_URL", "https://graph.org/file/40b5617c674e66d94ca91-eb57d11a9f60e230c6.jpg")
 PLAYLIST_IMG_URL = "https://graph.org/file/4e81f00155356f3b5d8f5-a7c36abd8fdd11625c.jpg"
 STATS_IMG_URL = "https://graph.org/file/c07f2ac06917736c5d5ae-4e09340b4b56d5c72d.jpg"
