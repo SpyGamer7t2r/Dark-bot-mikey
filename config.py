@@ -8,15 +8,15 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "21103099"))
-API_HASH = getenv("API_HASH", "2f08d417f1f8a0588854c4743ddd8298")
+API_ID = int(getenv("API_ID", "29870111"))
+API_HASH = getenv("API_HASH", "60848922c00cd07114ea65dae9ec9e13")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN","7878626275:AAHMWoTzYE3mDNTl8Ayvjids5fMakONDrjU")
+BOT_TOKEN = getenv("BOT_TOKEN","8020767033:AAHzbgnT-EATcfzjYYnKgQROkql9SpBLYaU")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://mikey:mikey@cluster0.zv6knh9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Dark-bot-Krito")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Dark-bot-sugarcandy")
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 100000))
@@ -25,7 +25,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 100000))
 LOGGER_ID = int(getenv("LOGGER_ID", -1002488381987))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7148922845"))
+OWNER_ID = int(getenv("OWNER_ID", "7701094832"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -42,7 +42,7 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Anime_In_Hindi_Pro")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/gxinfinity_support")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/infinitygx_bot_support")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
@@ -76,7 +76,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 # Get your pyrogram v2 session from @BRANDEDSTRINGSESSION_BOT on Telegram
 STRING1 = getenv("STRING_SESSION",  None)
-STRING2 = getenv("STRING_SESSION2", "BQFCAfsAjV3jBsMZqd1JJ4zjNbCPq-glZWFpnjOG8m1FvDQZdzbg3eVOTueiFNghrplUoajXa49rKupyElhIPz2bcQ8RbaiO5IIzVB1nWjXL_-UdY2U40LAGoq-Si-5RhdfK_kFfyGu1eQI7uamQOh5d7J2tkT67BRZqhLcdF7qykw3eKIr5ALNY8ARc4V04CP-rTs7GdsDWaxOGpFTsFpBWDRQR0AsVWwMaUhhF62PkG5_YzILjdtVqCgE8Va96iu-5Gq2jdUlTA1lnTFO2P6jmvCbNEouu8e7Nlh8vPtN1B8eam8Ik1MPA7fgblr6MDjM_duyqZEoAb6v8IJW_-_QHSCHE0wAAAAHO9moZAA")
+STRING2 = getenv("STRING_SESSION2", "BQHHyB8AQNKVGudEXgddgheuTllGTFyMI-k9OWzNT9G5ud7GDfJVrkD8VXO8iz55khXaB75FAmJnSqNCX5n3uiomS4HDKHYl6dVbAuJL6e3Xm7JrX1jdB7xOE1rngIIMWbtdvm5bDLElwENxAiDcTxabQHix9QtmCgpJuLwSeuwwBrjEaNVSdSPsAM24-mAhVXhccCDgTBjsBcorNy1iLybkDXhTakt1YmCYwNeMgdTOV2PLsX1X7xLx75kAcBQ4LYRvn5uoIE3jhq0M3PB9b51TpRzBlaTxgOl1bo3yVu5Llkm2NEzMzZgyjLBB9XrNw0_sNJjPnyVzA91kqrJg7S6Eg-uBsQAAAAHACaPDAA")
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
@@ -91,7 +91,7 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/d8ac350e5c44928b20989-d3f609ba8c017e39d3.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/fdb9ec17e44c9edc31b38-54a1582b9cb719fdd8.jpg")
 PING_IMG_URL = getenv("PING_IMG_URL", "https://graph.org/file/40b5617c674e66d94ca91-eb57d11a9f60e230c6.jpg")
 PLAYLIST_IMG_URL = "https://graph.org/file/4e81f00155356f3b5d8f5-a7c36abd8fdd11625c.jpg"
 STATS_IMG_URL = "https://graph.org/file/c07f2ac06917736c5d5ae-4e09340b4b56d5c72d.jpg"
